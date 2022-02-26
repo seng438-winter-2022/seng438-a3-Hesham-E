@@ -2,12 +2,12 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:      |     |
-| -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Group \#:  12    |     |
+| -----------------| --- |
+| Tom Altankhuyag  |     |
+| Hasan Mahtab     |     |
+| Asma Hashmi      |     |
+| Hesham Elkaliouby|     |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
