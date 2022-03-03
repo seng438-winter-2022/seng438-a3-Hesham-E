@@ -15,7 +15,7 @@ for each group. Please see each lab document for details.)
 # 1 Introduction
 
 
-This assignment covered unit testng once again, but instead of Black-Box testing, it covered White-Box tesitng. The objective of this lab is to intorduce us to the concepts of determing the adequecy of white-box test suit based on its covergae. This type of testing can take many forms, including control-flow coverage criteria. Three coverage types were used: Statement, branch, condition. The unit testing was done with JUnit in Eclipse. Testing tools like EclEclemma is used followed by the implementation of the test suit. 
+This lab covered unit testing once again, but this time it was about White-Box tesitng. The objective of this lab is to introduce us to the concepts of determining the adequecy of white-box test suite based on its covergae. This type of testing can take many forms, including control-flow coverage criteria. Three coverage types were looked into: Statement, branch, condition. The unit testing was done with JUnit in Eclipse. Testing tools like EclEclemma is used followed by the implementation of the test suite. 
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
