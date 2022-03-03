@@ -182,7 +182,7 @@ public class GetCumulativePercentages  {
 		});
 		
 		double result = DataUtilities.getCumulativePercentages(values).getValue(1).doubleValue();
-	assertEquals("The cumulative percentage at index 1 should be undefined(NaN)", Double.longBitsToDouble(0x7ff8000000000000L),result, 0);
+	    assertEquals("The cumulative percentage at index 1 should be 0", 0,result, 0);
 	}
 	
 	
