@@ -23,7 +23,7 @@ Text…
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-There are three coverage based metrics that were implemented: branch, statement, and condition. First the originals unit tests were tested for coverage, to see where new tests can be added. All the datautilities and range classes were tested. After writing in test cases, we tested for the coverage, which was almost always 100%. 
+There are three coverage based metrics that were implemented: branch, statement, and condition. First the original unit tests were tested for coverage, to see where new tests can be added. All the datautilities and range classes were tested. After writing in test cases, we tested for the coverage, which was almost always 100%. 
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
