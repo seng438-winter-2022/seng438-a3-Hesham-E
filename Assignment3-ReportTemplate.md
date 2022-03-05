@@ -211,13 +211,13 @@ To:
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 # org.jfree.data.Range:  
 
-![rangeClass](/figure/rangeCLASS.PNG)  
+![rangeClass](/figure/range.PNG)  
 
 ![combine](/figure/combine.PNG)  
 
 ![combineIgnore](/figure/combineIgnoringNaNTest.PNG)  
 
-![expand](/figure/combineIgnoringNaNTest.PNG)  
+![expand](/figure/expandtest.PNG)  
 
 ![expandToInclude](/figure/expandtoincludetest.PNG)  
 
