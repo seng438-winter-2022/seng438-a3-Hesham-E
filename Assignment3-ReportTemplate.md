@@ -2,7 +2,7 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:  12    |     |
+| Group \# : 12    |     |
 | -----------------| --- |
 | Tom Altankhuyag  |     |
 | Hasan Mahtab     |     |
@@ -35,11 +35,31 @@ Text…
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
-Text…
+In this lab, EclEmma was used to measure the coverages within the class and methods. Upon using the coverage tool, the pros included extensive coverage information and even code highlighting to indicate if certain part of the source code had been tested or not. However, we realized that certain unit tests does not affect the coverage percentage within a test suite but still affects the overall coverage of the class under test (Example below).
+
+We will use the method ```public static Range combineIgnoringNaN(Range range1, Range range2)``` as example.
+
+Seen below, with the unit test commented out, our coverages for the suite are all hundred percent despite still have a statement not covered.  
+
+![Figure6_0](/figure/6_0.PNG)  
+
+We can clearly see a statement is still not covered despite the coverage tool insisting that the coverages are at a hundred percent.    
+
+![Figure6_3](/figure/6_3.PNG)  
+
+With the test added, we can see our coverage measurement inside ```Range```.    
+
+![Figure6_1](/figure/6_1.PNG)  
+
+And without the unit test, we can see our class' coverage lowered.  
+
+![Figure6_2](/figure/6_2.PNG)  
+
+So as a result, EclEmma is still a fantastic coverage tool, but it can not confidently represent the accurate coverage of method/class under test. Overall the tool is still deemed to be very helpful and useful to check our overall coverages and especially the statement and branch coverages.
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+
 
 # 8 A discussion on how the team work/effort was divided and managed
 
