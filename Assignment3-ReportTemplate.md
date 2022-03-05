@@ -19,7 +19,8 @@ This lab covered unit testing once again, but this time it was about White-Box t
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
-Text…
+![Figure2_1](/figure/getCentralValue() DFG.PNG)
+![Figure2_2](/figure/calculateColumnTotal() DFG.PNG)
 
 # 3 A detailed description of the testing strategy for the new unit test
 
