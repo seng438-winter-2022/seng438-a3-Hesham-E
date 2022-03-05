@@ -249,4 +249,4 @@ The biggest lesson learned from this lab was that sometimes tools may not be suf
 
 # 10 Comments/feedback on the lab itself
 
-Text…
+Overall, it was a good introductory lab for us to learn about code coverage. However, there were no clear instructions in the assignment on how to use EclEmma step by step.
