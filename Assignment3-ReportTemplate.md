@@ -114,8 +114,98 @@ Our testing plan primairly followed the specifications and was supplimented by l
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-For the first example, we will a test case from the method ```public static Range combineIgnoringNaN(Range range1, Range range2)``` inside ```Range```.   
-poop
+Test case 1: ```firstNaNSecondNull()``` for ```public static Range combineIgnoringNaN(Range range1, Range range2)``` inside ```Range```.   
+```java
+     @Test
+	public void firstNaNSecondNull() {
+		testRange = new Range(0,0);
+		temp1 = new Range(Double.NaN,Double.NaN);
+		
+		testRange = Range.combineIgnoringNaN(temp1, null);
+		
+		assertNull("range should be null", testRange);
+	}
+```
+The coverage is increased from:  
+![Figure1_1](/figure/1_1.PNG)  
+
+To:  
+
+![Figure1_0](/figure/1_0.PNG)  
+  
+Test case 2: ```bothRangeAreNull()``` for ```public static Range combineIgnoringNaN(Range range1, Range range2)``` inside ```Range```.  
+```java
+    @Test
+	public void bothRangeAreNull() {
+		
+		testRange = new Range(0,0);
+		
+		testRange = Range.combineIgnoringNaN(null, null);
+		assertTrue("range object should be null",  Objects.isNull(testRange));
+	}
+```
+The coverage is increased from:  
+![Figure2_0](/figure/2_0.PNG)  
+
+To:  
+
+![Figure2_1](/figure/2_1.PNG)  
+
+Test case 3: ```secondRangeIsNull()``` for ```public static Range combineIgnoringNaN(Range range1, Range range2)``` inside ```Range```.  
+```java
+	@Test
+	public void secondRangeIsNull() {
+		
+		testRange = new Range(0,0);
+		temp1 = new Range(-1,5);
+		
+		testRange = Range.combine(temp1, null);
+		assertSame("testRange should be equivalent to temp1", temp1,testRange);
+```
+The coverage is increased from:  
+![Figure1_0](/figure/1_0.PNG)  
+
+To:  
+
+![Figure3_0](/figure/3_0.PNG)  
+
+Test case 4: ```newLowerValue()``` for ```public static Range expandToInclude(Range range, double value)``` inside ```Range```.
+```java
+@Test
+	public void newLowerValue() {
+		testRange = new Range(-5,5);
+		
+		testRange = Range.expandToInclude(testRange, -5.1);
+		
+		 temp = new Range(-5.1,5);
+		assertEquals("The new lower should be -5.1", -5.1,testRange.getLowerBound(),0);
+	}
+```
+The coverage is increased from:  
+![Figure1_0](/figure/1_0.PNG)  
+
+To:  
+
+![Figure4_0](/figure/4_0.PNG)  
+
+Test case 5: ```newUpperValue()``` for ```public static Range expandToInclude(Range range, double value)``` inside ```Range```.
+```java
+@Test
+	public void newUpperValue() {
+		testRange = new Range(-5,5);
+		
+		testRange = Range.expandToInclude(testRange, 5.1);
+		
+		 temp = new Range(-5,5.1);
+		assertEquals("the new upper should be 5.1", 5.1,testRange.getUpperBound(),0);
+	}
+```
+The coverage is increased from:  
+![Figure1_0](/figure/1_0.PNG)  
+
+To:  
+
+![Figure5_0](/figure/5_0.PNG)  
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
