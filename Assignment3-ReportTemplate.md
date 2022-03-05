@@ -27,7 +27,8 @@ There are three coverage based metrics that were implemented: branch, statement,
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Text…
+For the first example, we will a test case from the method ```public static Range combineIgnoringNaN(Range range1, Range range2)``` inside ```Range```.   
+poop
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
@@ -43,7 +44,7 @@ Seen below, with the unit test commented out, our coverages for the suite are al
 
 ![Figure6_0](/figure/6_0.PNG)  
 
-We can clearly see a statement is still not covered despite the coverage tool insisting that the coverages are at a hundred percent.    
+We can clearly see a line is still not covered despite the coverage tool insisting that the coverages are at a hundred percent.    
 
 ![Figure6_3](/figure/6_3.PNG)  
 
