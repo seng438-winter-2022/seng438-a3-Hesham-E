@@ -14,9 +14,9 @@ for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-This lab covered unit testing once again. However this time, the lab focuses more onto White-Box testing. The objective of this lab is to introduce us to the concepts of determining the adequecy of White-Box test suite based on its covergae. This type of testing uses control-flow coverage criteria. Three coverage types were looked into: Statement, Branch, Method. The unit testing was done with JUnit in Eclipse using Eclemma.
+This lab covered unit testing once again. However this time, the lab focuses more on White-Box testing. The objective of this lab is to introduce us to the concepts of determining the adequecy of White-Box test suite based on its covergae. This type of testing uses control-flow coverage criteria. Three coverage types were looked into: Statement, Branch, Method. The unit testing was done with JUnit in Eclipse using Eclemma.
 
-Going into this lab, the group no previous knowledge or experience on White-Box testing beyond what was already taught in lectures and through class examples. After this lab assignment, we have gained knowledge about the tools and the testing metrics used in White-Box testing.
+Going into this lab, the group had no previous knowledge or experience on White-Box testing beyond what was already taught in lectures and through class examples. After this lab assignment, we have gained knowledge about the tools and the testing metrics used in White-Box testing.
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
@@ -110,7 +110,7 @@ Going into this lab, the group no previous knowledge or experience on White-Box 
 
 At first, the group evaluated the old testing cases used for blackbox testing in the previous assignment. We evaluated the coverage metrics (branch, statement, and method) in the scope of the two classes: Range and DataUtilities. We realized that our previous test cases were not sufficient for the requirements of this lab, therefore, we developed new test cases for the methods within these two classes.
 
-Our testing plan primairly followed the specifications and was supplimented by looking at the source code itself. In this way, we were able to develop test cases based on the javadocs provided and by guessing how the function was implemented. However, in some cases, looking at the code itself was necessary to move forward if the specifications were not sufficient to develop test cases from.
+Our testing plan primairly followed the specifications and was supplemented by looking at the source code itself. In this way, we were able to develop test cases based on the javadocs provided and by guessing how the function was implemented. However, in some cases, looking at the code itself was necessary to move forward if the specifications were not sufficient to develop test cases from.
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
@@ -296,9 +296,11 @@ So as a result, EclEmma is still a fantastic coverage tool, but it can not confi
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Requirements-based testing is a test approach  where test cases, conditions, and data are derived from the requirements. It will include both functional and non-functional attributes, such as usability, performance, reliability. Coverage-based testing is done by designing test situations and test cases with test design techniques. 
+Requirements-based testing is a test approach where test cases, conditions, and data are derived from the requirements. It will include both functional and non-functional attributes, such as usability, performance, reliability. 
+Coverage-based testing is done by designing test situations and test cases with test design techniques. 
+For testing requirements, often times, the developers use black-box testing/requirement-based and white-box testing/cover-based test generation to make sure that all requirements are fulfilled and there is minimal amount of bugs. This will reduce the failure rate and although it may be more time-consuming, it will lead to a better software implementation.
 
-When compared to coverage testing, requirements testing gives a development team confidence over the simple/hard requirements of the final application. For example, a place where requirements testing would be preferred is in an account log in page where text fields are restricted to certain characters because boundary value testing is part of requirements testing. On the other hand, coverage testing is more useful for reliability and soft requirements. For example, coverage testing is useful for testing all paths in the program where possible. Sometimes this is not realistic, however, since programs can be too large in size. This is one downside of coverage based testing where it is dependent on covering the program.
+Additionally, when compared to coverage testing, requirements testing gives a development team confidence over the simple/hard requirements of the final application. For example, a place where requirements testing would be preferred is in an account log in page where text fields are restricted to certain characters because boundary value testing is part of requirements testing. On the other hand, coverage testing is more useful for reliability and soft requirements. For example, coverage testing is useful for testing all paths in the program where possible. Sometimes this is not realistic, however, since programs can be too large in size. This is one downside of coverage based testing where it is dependent on covering the program.
 
 # 8 A discussion on how the team work/effort was divided and managed
 
