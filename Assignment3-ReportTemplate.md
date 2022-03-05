@@ -207,9 +207,55 @@ To:
 
 ![Figure1_0](/figure/1_0.PNG)  
 
-# 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+# 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
+# org.jfree.data.Range:  
+
+![combine](/figure/combine.PNG)  
+
+![combineIgnore](/figure/combineIgnoringNaNTest.PNG)  
+
+![expand](/figure/combineIgnoringNaNTest.PNG)  
+
+![expandToInclude](/figure/expandtoincludetest.PNG)  
+
+![max](/figure/max.PNG)  
+
+![min](/figure/min.PNG)  
+
+![scale](/figure/scaletest.PNG)  
+
+![shift](/figure/shift1.PNG)  
+
+![shiftWithZero](/figure/shiftwithoutzero.PNG)  
+
+![equals](/figure/equaltest.PNG)  
+
+![getCentralValue](/figure/getcentralvaluetest.PNG)  
+
+![getLength](/figure/getlengthtest.PNG)  
+
+
+# org.jfree.data.DataUtilities:  
+
+![dataUtillities](/figure/dataUtilCLASS.PNG)  
+
+![columnTotal](/figure/columntotaltest.PNG)  
+
+![columnTotalOverload](/figure/columntotaltestoverload.PNG)  
+
+![rowTotal](/figure/rowtotal.PNG)  
+
+![rowTotalOverload](/figure/rowtotaloverload.PNG)  
+
+![clone](/figure/clonetest.PNG)  
+
+![createNumArray](/figure/createarraytest.PNG)  
+
+![equal](/figure/equaltest.PNG)  
+
+![getCumulative](/figure/getcumulativepercentages.PNG)  
+
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
