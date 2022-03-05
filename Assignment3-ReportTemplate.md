@@ -149,7 +149,7 @@ The coverage is increased from:
 
 To:  
 
-![Figure2_1](/figure/2_1.PNG)  
+![Figure2_1](/figure/1_0.PNG)  
 
 Test case 3: ```secondRangeIsNull()``` for ```public static Range combineIgnoringNaN(Range range1, Range range2)``` inside ```Range```.  
 ```java
@@ -163,11 +163,11 @@ Test case 3: ```secondRangeIsNull()``` for ```public static Range combineIgnorin
 		assertSame("testRange should be equivalent to temp1", temp1,testRange);
 ```
 The coverage is increased from:  
-![Figure1_0](/figure/1_0.PNG)  
+![Figure1_0](/figure/3_0.PNG)  
 
 To:  
 
-![Figure3_0](/figure/3_0.PNG)  
+![Figure3_0](/figure/1_0.PNG)  
 
 Test case 4: ```newLowerValue()``` for ```public static Range expandToInclude(Range range, double value)``` inside ```Range```.
 ```java
@@ -182,11 +182,11 @@ Test case 4: ```newLowerValue()``` for ```public static Range expandToInclude(Ra
 	}
 ```
 The coverage is increased from:  
-![Figure1_0](/figure/1_0.PNG)  
+![Figure1_0](/figure/4_0.PNG)  
 
 To:  
 
-![Figure4_0](/figure/4_0.PNG)  
+![Figure4_0](/figure/1_0.PNG)  
 
 Test case 5: ```newUpperValue()``` for ```public static Range expandToInclude(Range range, double value)``` inside ```Range```.
 ```java
@@ -201,11 +201,11 @@ Test case 5: ```newUpperValue()``` for ```public static Range expandToInclude(Ra
 	}
 ```
 The coverage is increased from:  
-![Figure1_0](/figure/1_0.PNG)  
+![Figure5_0](/figure/5_0.PNG)  
 
 To:  
 
-![Figure5_0](/figure/5_0.PNG)  
+![Figure1_0](/figure/1_0.PNG)  
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
