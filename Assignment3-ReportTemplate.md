@@ -211,6 +211,8 @@ To:
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 # org.jfree.data.Range:  
 
+![rangeClass](/figure/rangeCLASS.PNG)  
+
 ![combine](/figure/combine.PNG)  
 
 ![combineIgnore](/figure/combineIgnoringNaNTest.PNG)  
@@ -234,6 +236,17 @@ To:
 ![getCentralValue](/figure/getcentralvaluetest.PNG)  
 
 ![getLength](/figure/getlengthtest.PNG)  
+
+![upperBoundary](/figure/upperboundary.PNG)  
+
+![lowerBoundary](/figure/lowerboundary.PNG)  
+
+![contains](/figure/contains.PNG)  
+
+![hash](/figure/hashcode.PNG)  
+
+![toString](/figure/tostring.PNG)  
+
 
 
 # org.jfree.data.DataUtilities:  
