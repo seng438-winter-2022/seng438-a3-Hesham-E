@@ -19,8 +19,89 @@ This lab covered unit testing once again, but this time it was about White-Box t
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
-![Figure2_1](/figure/getCentralValue() DFG.PNG)
-![Figure2_2](/figure/calculateColumnTotal() DFG.PNG)
+![Figure2_1](/figure/getCentralValue()DFG.PNG)
+### DU-pairs per statement
+| Node | Def | Use |
+| -----|-----| --- |
+| 1 | | this.lower, this.upper|
+
+### DU-pairs per variable:
+* this.upper (class def, 1)
+* this.lower (class def, 1)
+### DU-pair coverage per test:
+* valueShouldBe2()
+o	for this.upper (class def, 1)
+o	for this.lower (class def, 1)
+o	2 pairs (100% DU-Pair coverage)
+* valueShouldBe1_5()
+o	for this.upper (class def, 1)
+o	for this.lower (class def, 1)
+o	2 pairs (100% DU-Pair coverage)
+* valueShouldBe1()
+o	for this.upper (class def, 1)
+o	for this.lower (class def, 1)
+o	2 pairs (100% DU-Pair coverage)
+* valueShouldBe35_9 ()
+o	for this.upper (class def, 1)
+o	for this.lower (class def, 1)
+o	2 pairs (100% DU-Pair coverage)
+* valueShouldBe0 ()
+o	for this.upper (class def, 1)
+o	for this.lower (class def, 1)
+o	2 pairs (100% DU-Pair coverage)
+
+![Figure2_2](/figure/calculateColumnTotal()DFG.PNG)
+### DU-pairs per statement:
+| Node | Def | Use |
+| -----|-----| --- |
+| 1 | data, row, total, columnCount| data |
+| 2 | c | c, columnCount |
+| 3 | n | row, c, n, data |
+| 4 | | total, n|
+| 5 | | total|
+
+### DU-pairs per variable
+* for data (1, 1) (1, 3)
+* for row (1, 3)
+* for total (1, 4) (1, 5)
+* for columnCount (1, 2)
+* for c (2, 2) (2, 3)
+* for n (3, 3) (3, 4)
+### DU-pair coverage per test:
+* calculateTwoValues()
+o	for data (1, 1) (1,3)
+o	for row (1, 3)
+o	for total (1, 4) (1, 5)
+o	for columnCount (1, 2)
+o	for c (2, 2) (2, 3)
+o	for n (3, 3) (3, 4)
+o	10 pairs (100% DU-Pair 
+* calculateColumnIndexOutofRange()
+o	for data (1, 1) (1,3)
+o	for row (1, 3)
+o	for total (1, 5)
+o	for columnCount (1, 2)
+o	for c (2, 2) (2, 3)
+o	for n (3, 3)
+o	8 pairs (80% DU-Pair coverage)
+* calculateColumnIndexNegative()
+o	for data (1, 1) (1,3)
+o	for row (1, 3)
+o	for total (1, 5)
+o	for columnCount (1, 2)
+o	for c (2, 2) (2, 3)
+o	for n (3, 3)
+o	8 pairs (80% DU-Pair coverage)
+* tableHasZeroRows()
+o	for data (1, 1)
+o	for total (1, 4) (1, 5)
+o	for columnCount (1, 2)
+o	for c (2, 2)
+o	5 pairs (50% DU-Pair coverage)
+* dataObjectInvalid()
+o	for data (1, 1)
+o	1 pair (10% DU-Pair coverage)
+
 
 # 3 A detailed description of the testing strategy for the new unit test
 
