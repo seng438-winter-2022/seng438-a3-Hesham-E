@@ -114,6 +114,8 @@ Our testing plan primairly followed the specifications and was supplemented by l
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
+Each test case was designed to compliment each other. For example, the main goal was to increase branch and statement coverage. In order to do this, we targeted if statements in the source code by passing in values which would cause conditions to be true or false. Once both condititions were evaluated, then we can see coverage increasing. The coverage increase from each test is small because the coverage was analyzed without removing all the complimenting test cases. Rather, each test case was removed once to evaluate its effect. 
+
 Test case 1: ```firstNaNSecondNull()``` for ```public static Range combineIgnoringNaN(Range range1, Range range2)``` inside ```Range```.   
 ```java
      @Test
