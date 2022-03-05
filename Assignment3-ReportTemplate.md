@@ -14,9 +14,9 @@ for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-This lab covered unit testing once again. However this time, the lab focuses more onto White-Box testing. The objective of this lab is to introduce us to the concepts of determining the adequecy of White-Box test suite based on its covergae. This type of testing uses control-flow coverage criteria. Three coverage types were looked into: Statement, Branch, Method. The unit testing was done with JUnit in Eclipse using Eclemma.
+This lab covered unit testing once again. However this time, the lab focuses more on White-Box testing. The objective of this lab is to introduce us to the concepts of determining the adequecy of White-Box test suite based on its covergae. This type of testing uses control-flow coverage criteria. Three coverage types were looked into: Statement, Branch, Method. The unit testing was done with JUnit in Eclipse using Eclemma.
 
-Going into this lab, the group no previous knowledge or experience on White-Box testing beyond what was already taught in lectures and through class examples. After this lab assignment, we have gained knowledge about the tools and the testing metrics used in White-Box testing.
+Going into this lab, the group had no previous knowledge or experience on White-Box testing beyond what was already taught in lectures and through class examples. After this lab assignment, we have gained knowledge about the tools and the testing metrics used in White-Box testing.
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
@@ -110,7 +110,7 @@ Going into this lab, the group no previous knowledge or experience on White-Box 
 
 At first, the group evaluated the old testing cases used for blackbox testing in the previous assignment. We evaluated the coverage metrics (branch, statement, and method) in the scope of the two classes: Range and DataUtilities. We realized that our previous test cases were not sufficient for the requirements of this lab, therefore, we developed new test cases for the methods within these two classes.
 
-Our testing plan primairly followed the specifications and was supplimented by looking at the source code itself. In this way, we were able to develop test cases based on the javadocs provided and by guessing how the function was implemented. However, in some cases, looking at the code itself was necessary to move forward if the specifications were not sufficient to develop test cases from.
+Our testing plan primairly followed the specifications and was supplemented by looking at the source code itself. In this way, we were able to develop test cases based on the javadocs provided and by guessing how the function was implemented. However, in some cases, looking at the code itself was necessary to move forward if the specifications were not sufficient to develop test cases from.
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
