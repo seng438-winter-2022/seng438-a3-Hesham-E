@@ -237,7 +237,7 @@ So as a result, EclEmma is still a fantastic coverage tool, but it can not confi
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-
+When compared to coverage testing, requirements testing gives a development team confidence over the simple/hard requirements of the final application. For example, a place where requirements testing would be prefered is in an account log in page where text fields are restricted to certain characters because boundary value testing is part of requirements testing. On the other hand, coverage testing is more useful for reliability and soft requirements. For example, coverage testing is useful for testing all paths in the program where possible. Sometimes this is not realistic, however, since programs can be too large in size. This is one downside of coverage based testing where it is dependent on covering the program.
 
 # 8 A discussion on how the team work/effort was divided and managed
 
