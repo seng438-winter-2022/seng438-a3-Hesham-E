@@ -19,6 +19,7 @@ This lab covered unit testing once again, but this time it was about White-Box t
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
+## getCentralValue()
 ![Figure2_1](/figure/getCentralValue()DFG.png)
 ### DU-pairs per statement
 | Node | Def | Use |
@@ -50,6 +51,7 @@ This lab covered unit testing once again, but this time it was about White-Box t
    * for this.lower (class def, 1)
    * 2 pairs (100% DU-Pair coverage)
 
+## calculateColumnTotal()
 ![Figure2_2](/figure/calculateColumnTotal()DFG.png)
 ### DU-pairs per statement:
 | Node | Def | Use |
